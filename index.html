@@ -1,28 +1,290 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Daniel Olagunjup</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Daniel!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:todak2000@gmail.com">email</a></li>
-        		<li><a href="https://github.com/todak2000">github.com/todak2000</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Daniel Olagunju Portfolio</title>
+
+    <!-- Bootstrap -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+     <link rel="stylesheet" type="text/css" href="css/brand.css">
+    <!-- fontawesome script -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Teko|Quantico:700|Yatra+One|Titillium+Web|Poiret+One" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+        <div id="preloader" style="display: none;">
+            <div id="preloader_spinner" style="display: none;">
+                <div class="spinner"></div>
+            </div>
+        </div>
+        <!-- TOP NAVIGATION BAR -->
+        <header class="header_area slideIn stricky-fixed fadeInDown animated top-nav">
+            <div class="container ">
+                
+                    <!-- TOGGLE ICON FOR SMALL SCREENS-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#colapsible" aria-expanded="false" style="border-color:#ffffff">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background-color:#ffffff"></span>
+                            <span class="icon-bar" style="background-color:#ffffff"></span>
+                            <span class="icon-bar" style="background-color:#ffffff"></span>
+                        </button>
+                        <a class="navbar-brand typewriter" href="#" >Daniel Olagunju</a>
+                    </div>
+
+                    <!-- NAVIGATION ITEMS -->
+                    <div class="collapse navbar-collapse" id="colapsible">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class=""><a href="#about_me_section">About me </a></li>
+                            <li class=""><a href="#skills_section">Skills</a></li>
+                            <li><a href="#projects_section">Project</a></li>
+                            <li><a href="#social_media">Social Media</a></li>
+                         </ul>
+                    </div><!-- NAVIGATION ITEM ENDS HERE -->
+                
+            </div>
+        </header>
+        <!-- TOP NAVIGATION BAR ENDS HERE -->
+
+        <!-- ABOUT ME SECTION STARTS HERE -->
+        <div class="container_body" style="padding-top:10px;">
+            <div id="about_me_section" onmouseover="show_Nothing()">
+                <div class="row">
+                    <div class="col-md-4 col-sm-3 col-xs-12" id="image_div" align="center">
+                        <img style="border:1px solid #232323;" class="img img-circle pics" src="images/test_one.png"><br><br><br>
+                        <a href="OLAGUNJU_ Daniel_Tosin.pdf"> <button style="border-radius:5px;font-family: 'Poiret One', cursive;" class="btn-success">Download Resume <i class="fa fa-download"></i></button></a>
+                    </div>
+                    <div class="col-md-8 col-sm-9 col-xs-12">
+                        <div class="row personal_details">
+                                    <h3 align="center" style="background-color:#232232;"><span style="font-weight:700; color:#ababab;">Brief Bio</span></h3>
+                                    <h5 style="font-weight:700; color:blue;">Front-End Developer,  UI/UX Designer  &  Mobile App Developer</h5>
+                                    <p class="text-justify">Daniel is a self-motivated team player who is able to take responsibility for any project entrusted in his care. He has a wide range of valuable skills gained through study, research and projects that can be used across various job roles and functions. As a lover of new challenges, one of his strongest competencies is his ability to manage several projects at the same time and ability to learn fast and adapt makes him an ideal candidate for your position. Presently, Daniel is seeking for a suitable graduate intern position with an employer who cares strongly about innovation, research and development; and more importantly, a firm that has on-going programs designed to nurture, develop and promote individuals to their maximum potential</p>
+                                    <div class="person_information">
+                                        <ul id="info_one">
+                                            <li>Nationality</li>
+                                            <li>Address</li>
+                                            <li>Phone</li>
+                                            <li>Fax</li>
+                                            <li>Email</li>
+                                            <li>Website</li>
+                                        </ul>
+                                        <ul id="info_two">
+
+                                            <li>Nigeria</li>
+                                            <li>Lagos, Nigeria</li>
+                                            <li>+(234)-703-812-6711</li>
+                                            <li>+(234)-811-844-7338</li>
+                                            <li>todak2000@gmail.com</li>
+                                            <li><a href="#">www.danielolagunju.com</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ABOUT ME SECTION ENDS HERE -->
+            <div id="skills_section" onmouseover="show_Nothing()">
+            <h3 align="center" style="background-color:#232232;border-radius: 5px 5px 0 0; font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Skills</span></h3>
+                <div class="row">
+                    <div class="soft_skills col-md-6 col-xs-12 col-sm-6">
+                         <div id="soft">
+                             <h3 align="center" style="background-color:#232232; font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Soft Skills</span></h3>
+
+                             <div class="leadership_skill c_features" style="margin-bottom:20px;">
+                                    <div class="row" data-toggle="tooltip" data-placement="top" title="I believe in Responsibility leadership which is not neccesarily positional" 
+">
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6"><i class="fa fa-user fa-3x"></i></div>
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6 leader"><h4 style="font-weight:700; color:#ababab;">Leadership</h4></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="teamwork_skill c_features" style="margin-bottom:20px;">
+                                    <div class="row" data-toggle="tooltip" data-placement="top" title="You can't go far as a Programmer without teamwork. I work with a team of coders to achieve set goals">
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6"><i class="fa fa-cogs fa-3x"></i></div>
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6"><h4 style="font-weight:700; color:#ababab;">Teamwork</h4></div>
+                                    </div>
+                                </div>
+                                <div class="communication_skill c_features" style="margin-bottom:20px;">
+                                    <div class="row" data-toggle="tooltip" data-placement="top" title="I have gained strong communication skills during my degree course from giving presentations at seminars to participation in teamwork both oral and written. ">
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6"><i class="fa fa-microphone fa-3x"></i></div>
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6"><h4 style="font-weight:700; color:#ababab;">Communication</h4></div>
+                                    </div>
+                                </div>
+                                <a href="#"><div class="Research_skill c_features" style="margin-bottom:20px;" data-toggle="modal" data-target="#ModalCarousel">
+                                    <div class="row" data-toggle="tooltip" data-placement="top" title="Click to check out my Academic Research Papers here">
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6"><i class="fa fa-shield fa-3x"></i></div>
+                                        <div align="center" class="col-md-6 col-xs-12 col-sm-6" ><h4 style="font-weight:700; color:#ababab;">Research</h4></div>
+                                    </div>
+                                </div></a>
+                                <div class="tools">
+                                    <h3 align="center" style="background-color:#232232; font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Tools & Frameworks</span></h3>
+                                    <div class="row">
+                                        <div align="center" class="col-md-3">
+                                            <img class="img im-thumb" src="images/ps.png"><p>Photoshop</p>
+                                        </div>
+                                        <div align="center" class="col-md-3"><img class="img im-thumb" src="images/ink.png"><p>Inkscape</p></div>
+                                        <div align="center" class="col-md-3"><img class="img im-thumb" src="images/bot.png"><p>Bootstrap</p></div>
+                                        <div align="center" class="col-md-3"><img class="img im-thumb" src="images/corel.png"><p>CoreDraw</p></div>
+                                    </div>
+                                </div>
+                         </div>
+                    </div>
+                    <div class="coding_skills col-md-6 col-xs-12 col-sm-6">
+                         <div>
+                             <h3 align="center" style="background-color:#232232; font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Coding Skills</span></h3>
+
+                             <div class="html_skill c_features" style="margin-bottom:5px;">
+                                    <h4 style="font-weight:700; color:#ababab;">HTML & CSS</h4>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                            <div class="progress_percent"><span class="counter">75</span>%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="java_skill c_features" style="margin-bottom:5px;">
+                                    <h4 style="font-weight:700; color:#ababab;">Java &amp; XML</h4>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                                            <div class="progress_parcent"><span class="counter">65</span>%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js_skill c_features" style="margin-bottom:5px;">
+                                    <h4 style="font-weight:700; color:#ababab;">JavaScript</h4>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                                            <div class="progress_parcent"><span class="counter">65</span>%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="design_skill c_features" style="margin-bottom:5px;">
+                                    <h4 style="font-weight:700; color:#ababab;">UI design</h4>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <div class="progress_parcent"><span class="counter">70</span>%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                         </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- END OF SKILLS SECTION -->
+            <!-- START OF PROJECT SECTION -->
+            <div id="projects_section">
+            <h3 align="center" style="background-color:#232232;border-radius: 5px 5px 0 0;  font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Projects</span></h3>
+                <div class="row">
+                    <div align="center" class="col-md-6 col-sm-6 col-xs-12" >
+                     <h3 align="center" style="background-color:#232232; font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Web Applications</span></h3>
+                        <a href=""><img id="web_app" style="border-radius:25px;" class="img-thumb" src="images/web2.png" onmouseover="show_Web()" "></a>
+                    </div>
+                    <div align="center" class="col-md-6 col-sm-6 col-xs-12" id="mobile_app" >
+                     <h3 align="center" style="background-color:#232232; font-family: 'Nunito', sans-serif;"><span style="font-weight:700; color:#ababab;">Mobile Applications</span></h3>
+                        <a href=""><img id="mobile_app"style="border-radius:25px;"  class="img-thumb" src="images/mob4.png" onmouseover="show_Mobile()" ></a>
+                    </div>
+                </div>
+                <!-- HIDDEN WEB PROJECT -->
+                <div class="row hide" id="web" style="background:#232223;  border-radius:5px; height:240px; width:100%px; margin:5px;padding:5px;">
+                    <div align="center" class="col-md-4 col-sm-6 col-xs-12 img-thumb" style="padding:0 1px 0 1px;border:2px solid orange;border-radius:5px; margin:auto;"><img class="pics" src="images/web2.png"></div>
+                    <div align="center" class="col-md-4 col-sm-6 col-xs-12 img-thumb " style="padding:0 1px 0 1px;border:2px solid orange;border-radius:5px; margin:auto;"><img class="pics" src="images/web2.png"></div>
+                    <div align="center" class="col-md-4 col-sm-6 col-xs-12 img-thumb " style="padding:0 1px 0 1px;border:2px solid orange;border-radius:5px; margin:auto;"><img class="pics" src="images/web2.png"></div>
+                </div>
+                 <!-- HIDDEN MOBILE PROJECT -->
+                <div class="row hide" id="mobile" style="background:#232223;  border-radius:5px; height:240px; width:100%px; margin:5px;padding:5px;">
+                    <div align="center" class="col-md-4 col-sm-6 col-xs-12 img-thumb" style="padding:0 1px 0 1px;border:2px solid orange;border-radius:5px; margin:auto;"><img class="pics" src="images/mob3.png"></div>
+                    <div align="center" class="col-md-4 col-sm-6 col-xs-12 img-thumb" style="padding:0 1px 0 1px;border:2px solid orange;border-radius:5px; margin:auto;"><img class="pics" src="images/mob3.png"></div>
+                    <div align="center" class="col-md-4 col-sm-6 col-xs-12 img-thumb" style="padding:0 1px 0 1px;border:2px solid orange;border-radius:5px; margin:auto;"><img class="pics" src="images/mob3.png"></div>
+                </div>
+            </div>
+
+            <!-- END OF PROJECT SECTION -->
+            <div align="center" class="social col-md-12 col-sm-12 col-xs-12" id="social_media" onmouseover="show_Nothing()">
+                <ul  class="social_icon text-center">
+                        <li><a href="https://www.facebook.com/daniel.kola1" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/todak" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href="https://github.com/todak2000/" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+                        <li><a href="https://plus.google.com/u/0/+DanielKola" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/daniel-olagunju-79b7b9b5/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        <li><a href="https://www.pinterest.com/todak2000/" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                        <li><a href="https://join.skype.com/invite/daCfTvfzbem2" target="_blank"><i class="fa fa-skype fa-2x"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>     
+                </ul> 
+            </div>
+
+            <!-- MODAL FOR RESEARCH PAPERS -->
+            <div class="modal fade" id="ModalCarousel" tabindex="-1" role="dialog" aria-labelledby="ModalCarouselLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content" style="border-radius:50px; border: 2px solid pink;">
+                  <div id="carousel-modal-demo" class="carousel slide " data-ride="carousel">
+
+             <!-- Sliding images statring here --> 
+               <div class="carousel-inner" style="border-radius:50px; border: 2px solid pink;" > 
+                    <div class="item active" style="border-radius:50px; border: 2px solid pink;"> 
+                        <img src="images/rate1.png" alt="Rate Decline-Based Models for Gas Reservoir Performance Prediction in Niger Delta Region">
+                         <div align="center"><a href="http://www.journalrepository.org/media/journals/BJAST_5/2017/Feb/Okon1912016BJAST31184.pdf" target="_blank">
+                         <button class="btn-info">Read Paper</button></a></div>  
+                    </div> 
+                    <div class="item" style="border-radius:50px; border: 2px solid pink;"> 
+                        <img src="images/rate2.png" alt="Production Rate Decline-Based Models for Oil Reservoir Performance Prediction in Niger Delta"> 
+                         <div align="center"><a href="https://www.researchgate.net/publication/318723892_Production_Rate_Decline-Based_Models_for_Oil_Reservoir_Performance_Prediction_in_Niger_Delta" target="_blank">
+                         <button class="btn-info">Read Paper</button></a></div> 
+                    </div> 
+                    <div class="item" style="border-radius:50px; border: 2px solid pink;"> 
+                        <img src="images/shale.png" alt="Economic Estimation of Oil Shale Development Methods in Nigeria"> 
+                        <div align="center"><a href="https://www.researchgate.net/publication/320557148_Economic_Estimation_of_Oil_Shale_Development_Methods_in_Nigeria" target="_blank">
+                        <button class="btn-info">Read Paper</button></a></div> 
+                    </div>
+                    <div class="item " style="border-radius:50px; border: 2px solid pink;"> 
+                        <img src="images/water.png" alt="Water Coning Control: A Comparision of Downhole Water Sink and Downhole Water Loop Technologies"> 
+                        <div align="center"><a href="https://www.researchgate.net/publication/322277556_Water_Coning_Control_A_Comparison_of_Downhole_Water_Sink_and_Downhole_Water_Loop_Technologies" target="_blank">
+                        <button class="btn-info">Read Paper</button></a></div> 
+                    </div> 
+                    <div class="item" style="border-radius:50px; border: 2px solid pink;"> 
+                        <img src="images/fracture.png" alt="Effect of Naturally Fractured Reservoir on Water Coning: A Review"> 
+                    </div>
+                    <div class="item " style="border-radius:50px; border: 2px solid pink;"> 
+                        <img src="images/achie.png" alt="Evaluation of Cuttings Carrying Capacity and Hole Cleaning Efficiency of Formulated Drilling Mud from Detarium microcarpum and Brachystegia eurycoma">    
+                    </div> 
+                  
+              </div> 
+              <!-- Next / Previous controls here -->
+              <a class="left carousel-control" href="#carousel-modal-demo" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-modal-demo" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+              
+            </div>
+
+           </div>
+         </div>   
+        </div>
+
+        
+</div>
+         <script src="js/jquery.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script src="js/portfolio.js"></script>
+   
+   
+  </body>
 </html>

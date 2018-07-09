@@ -1,0 +1,110 @@
+body{
+	background: #232323;
+}
+.top-nav{
+	background-color: #232323;
+}
+#info_one{
+	float: left;
+	list-style: none;
+}
+#info_two{
+	float: right;
+	list-style: none;
+}
+.personal_details{
+	padding: 10px 40px 0 40px;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 10px 40px 0 40px
+}
+.container_body{
+	background-color: #aaaaaa;
+	padding: 0 10% 0 10%;
+}
+#image_div{
+	padding-top: 10%;
+	
+}
+#about_me_section{
+	background: #eeeeef;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	border-bottom: 5px solid orange;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;
+}
+#skills_section{
+	font-family: 'Titillium Web', sans-serif;
+	background: #eeeeef;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	border-bottom: 5px solid orange;
+	font-family: 'Nunito', sans-serif;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;
+}
+
+#projects_section{
+	font-family: 'Titillium Web', sans-serif;
+	background: #eeeeef;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	border-bottom: 5px solid orange;
+	font-family: 'Nunito', sans-serif;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;
+}
+
+.personal_details:hover{
+
+	border-top: solid 3px #bbbbbb;
+	border-right: solid 3px #bbbbbb;
+	border-radius: 25px;
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+#colapsible{
+	font-family: 'Yatra One', cursive;
+}
+.pics{
+	transition: 0.6s;
+}
+.pics:hover{
+	transform: scale(1.2);
+	
+
+
+}
+.c_features:hover{
+	background-color: #232323;
+	padding: 15px;
+}
+.c_features, .html_skill, .java_skill, .js_skill, .design_skill{
+	border-bottom: 3px solid #232323;
+	border-right: 3px solid #232323;
+	border-radius: 10px;
+	padding: 10px;
+}
+.soft_skills{
+	padding-right: 25px;
+	padding-left: 25px;
+
+}
+.coding_skills{
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.social_icon>li{
+	float: left;
+	margin:10px 4% 0 4%;
+	padding-left: 5px;	
+	list-style-type: none;
+	text-align: center;
+}
+.social{
+	background-color: #232323;
+	height: 50px;
+}
+
+
+
